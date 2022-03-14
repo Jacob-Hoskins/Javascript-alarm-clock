@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Clock</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header>
+            <h1>Clock</h1>
+            <h3 id="Time">12:14</h3>
+        </header>
+
+        <nav>
+            <ul class='alarmView' onclick="changeView('alarmClock')">Alarm Clock</ul>
+        </nav>
+
+        <aside class="alarmClock">
+            <div class="createAlarm">
+                <button class="addAlarmButton" onclick=createAlarmView()>Add Alarm</button>
+            </div>
+
+            <div class="addAlarms">
+                <h3>Create Alarm</h3>
+
+                <div class="alarmHourDiv">
+                    <button class="top" onclick="changeAlarmHour('1')">/\</button>
+                    <p id="hourTime">12</p>
+                    <button class="bottom" onclick="changeAlarmHour('-1')">\/</button>
+                </div>
+
+                <div class="alarmMinuteDiv">
+                    
+                    <button class="top" onclick="changeAlarmMinute('1')">/\</button>
+                    <p id="minuteTime">35</p>
+                    <button class="bottom" onclick="changeAlarmMinute('-1')">\/</button>
+                </div>
+
+                <button onclick=addNewAlarm() class="addButton">Add</button>
+            </div>
+            
+            <div class="currentAlarms" id="currentAlarms">
+                <div class="rows">
+                    <p>12:35</p>
+                    <!-- <button class="deleteAlarm">-</button> -->
+                </div>
+                
+            </div>
+            
+        </aside>
+
+        <script src="index.js" > </script>
+    </body>
+</html>

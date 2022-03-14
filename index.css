@@ -1,0 +1,95 @@
+body {
+  background-color: rgb(118, 72, 226);
+  font-size: 27px;
+}
+
+header {
+  text-align: center;
+  margin: auto;
+}
+
+nav {
+  text-align: center;
+}
+
+ul {
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin: auto;
+  padding: 15px;
+}
+
+button {
+  border-radius: 7px;
+  width: 25rem;
+  height: 35px;
+}
+
+p {
+  display: inline-block;
+}
+.alarmClock {
+  display: none;
+  border: solid black 2px;
+}
+.createAlarm {
+  text-align: center;
+}
+
+.addAlarms {
+  display: none;
+  text-align: center;
+  background-color: slategrey;
+  margin: 15px;
+}
+
+.top {
+  display: flex;
+  top: 100px;
+  margin: auto;
+}
+
+.bottom {
+  display: flex;
+  bottom: 100px;
+  margin: auto;
+}
+
+.addAlarms button {
+  width: 35px;
+}
+
+.addButton {
+  display: block;
+  text-align: center;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.alarmHourDiv {
+  display: inline-block;
+}
+
+.alarmMinuteDiv {
+  display: inline-block;
+}
+
+.addAlarmButton {
+  display: block;
+  margin: auto;
+}
+
+.currentAlarms {
+  display: inline-block;
+  border-radius: 15px;
+  background-color: slategray;
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.stopwatch {
+  display: none;
+  text-align: center;
+}
